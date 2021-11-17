@@ -2999,7 +2999,7 @@ html.safari-browser #video-player iframe {
         left: calc(4.16667% + var(--gutter));
         max-width: 320px;
     }
-    
+
 }
 .studio-about {
     width: 91.6666666667%;
@@ -3514,7 +3514,7 @@ html.safari-browser #video-player iframe {
         width: 100%;
     }
 }
-.contact-content a[href^="https://www.facebook.com/pikseldesignnz/"],.contact-content a[href^="https://www.instagram.com/pikseldesign.co.nz"],.contact-content a[href^="https://www.linkedin.com/company/piksel-design-ltd/"]
+.contact-content a[href^="https://www.facebook.com/piksel.art/"],.contact-content a[href^="https://www.instagram.com/piksel.art"],.contact-content a[href^="https://www.linkedin.com/company/piksel-design-ltd/"]
 {
     color: var(--buff);
 }
@@ -3740,7 +3740,7 @@ body.aboutPage {
     height: 1.4em;
     background: #F4971B;
   }
-  
+
   @-webkit-keyframes clickAnimation {
     0% {
       -webkit-transform: scale(0);
@@ -3753,7 +3753,7 @@ body.aboutPage {
       opacity: 0;
     }
   }
-  
+
   @keyframes clickAnimation {
     0% {
       -webkit-transform: scale(0);
@@ -3769,14 +3769,14 @@ body.aboutPage {
   .cursor--hidden {
     opacity: 0;
   }
-  
+
   .cursor--link-hovered {
     -webkit-transform: translate(-50%, -50%) scale(1.8);
         -ms-transform: translate(-50%, -50%) scale(1.8);
             transform: translate(-50%, -50%) scale(1.8);
     background-color: #fefefe;
   }
-  
+
   .cursor--draggable-hovered {
     -webkit-transform: translate(-50%, -50%) scale(1);
         -ms-transform: translate(-50%, -50%) scale(1);
@@ -3793,7 +3793,7 @@ body.aboutPage {
   .cursor--draggable-hovered .drag-icon:before {
     display: none;
   }
-  
+
   .cursor--clicked {
     -webkit-transform: translate(-50%, -50%) scale(0.5);
         -ms-transform: translate(-50%, -50%) scale(0.5);
@@ -3874,7 +3874,7 @@ body.aboutPage {
         opacity: 0;
         transform: translateY(-80%);
     }
-    
+
     100% {
         transform: translateY(-55%) rotate(0) scale(1);
         opacity: 1;
@@ -3946,7 +3946,7 @@ body.expand {
     transition: all .25s cubic-bezier(.645,.045,.355,1);
     animation: float 6s ease-in-out infinite;
     z-index: 1;
-    
+
 }
 .circle-small:hover {
     background-color: #F4971B;
@@ -3970,7 +3970,7 @@ body.expand {
     0% {
         transform: translateY(0) translateZ(0);
     }
-    
+
     50% {
         transform: translateY(-2vh) translateZ(0);
     }
@@ -4072,7 +4072,7 @@ body.expand {
       opacity: 1;
     }
   }
-  
+
 
   .anim-about-yes {
       opacity: 0;
@@ -4083,7 +4083,7 @@ body.expand {
     transform: translate(0px, -100%);
     transition: .35s cubic-bezier(0.390, 0.575, 0.565, 1.000);
   }
-  
+
   .about_img {
       width: 52vw;
   }
@@ -4091,4 +4091,3 @@ body.expand {
       max-width: 48vw;
       margin-top: 10px;
   }
-  
