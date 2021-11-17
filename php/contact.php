@@ -4,7 +4,7 @@ $company = $_POST['COMPANY'];
 $phone = $_POST['PHONE'];
 $message = $_POST['MESSAGE'];
 $formcontent="From: $name \n Message: $message";
-$recipient = "contact@peksel.art";
+$recipient = "contact@piksel.art";
 $subject = "Website Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader, $company, $phone) or die("Error!");
