@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+   <meta charset='utf-8'>
+   <title>Pikesel.art</title>
+   <script type="text/javascript">
+      var ajaxurl = "https://pikseldesign.co.nz/wp-admin/admin-ajax.php";
+   </script>
+
+   <script></script>
+   <script>
+      /*! modernizr 3.6.0 (Custom Build) | MIT *
+       * https://modernizr.com/download/?-touchevents-setclasses !*/
+      ! function (e, n, t) {
+         function o(e, n) {
+            return typeof e === n
+         }
+
+         function s() {
+            var e, n, t, s, a, i, r;
+            for (var l in c)
+               if (c.hasOwnProperty(l)) {
+                  if (e = [], n = c[l], n.name && (e.push(n.name.toLowerCase()), n.options && n.options.aliases && n
+                        .options.aliases.length))
+                     for (t = 0; t < n.options.aliases.length; t++) e.push(n.options.aliases[t].toLowerCase());
+                  for (s = o(n.fn, "function") ? n.fn() : n.fn, a = 0; a < e.length; a++) i = e[a], r = i.split("."),
+                     1 === r.length ? Modernizr[r[0]] = s : (!Modernizr[r[0]] || Modernizr[r[0]] instanceof Boolean || (
+                        Modernizr[r[0]] = new Boolean(Modernizr[r[0]])), Modernizr[r[0]][r[1]] = s), f.push((s ? "" :
+                        "no-") + r.join("-"))
+               }
+         }
+
+         function a(e) {
+            var n = u.className,
+               t = Modernizr._config.classPrefix || "";
+            if (p && (n = n.baseVal), Modernizr._config.enableJSClass) {
+               var o = new RegExp("(^|\\s)" + t + "no-js(\\s|$)");
+               n = n.replace(o, "$1" + t + "js$2")
+            }
+            Modernizr._config.enableClasses && (n += " " + t + e.join(" " + t), p ? u.className.baseVal = n : u
+               .className = n)
+         }
+
+         function i() {
+            return "function" != typeof n.createElement ? n.createElement(arguments[0]) : p ? n.createElementNS.call(n,
+               "http://www.w3.org/2000/svg", arguments[0]) : n.createElement.apply(n, arguments)
+         }
+
+         function r() {
+            var e = n.body;
+            return e || (e = i(p ? "svg" : "body"), e.fake = !0), e
+         }
+
+         function l(e, t, o, s) {
+            var a, l, f, c, d = "modernizr",
+               p = i("div"),
+               h = r();
+            if (parseInt(o, 10))
+               for (; o--;) f = i("div"), f.id = s ? s[o] : d + (o + 1), p.appendChild(f);
+            return a = i("style"), a.type = "text/css", a.id = "s" + d, (h.fake ? h : p).appendChild(a), h.appendChild(
+                  p), a.styleSheet ? a.styleSheet.cssText = e : a.appendChild(n.createTextNode(e)), p.id = d, h.fake &&
+               (h.style.background = "", h.style.overflow = "hidden", c = u.style.overflow, u.style.overflow = "hidden",
+                  u.appendChild(h)), l = t(p, e), h.fake ? (h.parentNode.removeChild(h), u.style.overflow = c, u
+                  .offsetHeight) : p.parentNode.removeChild(p), !!l
+         }
+         var f = [],
+            c = [],
+            d = {
+               _version: "3.6.0",
+               _config: {
+                  classPrefix: "",
+                  enableClasses: !0,
+                  enableJSClass: !0,
+                  usePrefixes: !0
+               },
+               _q: [],
+               on: function (e, n) {
+                  var t = this;
+                  setTimeout(function () {
+                     n(t[e])
+                  }, 0)
+               },
+               addTest: function (e, n, t) {
+                  c.push({
+                     name: e,
+                     fn: n,
+                     options: t
+                  })
+               },
+               addAsyncTest: function (e) {
+                  c.push({
+                     name: null,
+                     fn: e
+                  })
+               }
+            },
+            Modernizr = function () {};
+         Modernizr.prototype = d, Modernizr = new Modernizr;
+         var u = n.documentElement,
+            p = "svg" === u.nodeName.toLowerCase(),
+            h = d._config.usePrefixes ? " -webkit- -moz- -o- -ms- ".split(" ") : ["", ""];
+         d._prefixes = h;
+         var m = d.testStyles = l;
+         Modernizr.addTest("touchevents", function () {
+            var t;
+            if ("ontouchstart" in e || e.DocumentTouch && n instanceof DocumentTouch) t = !0;
+            else {
+               var o = ["@media (", h.join("touch-enabled),("), "heartz", ")",
+                  "{#modernizr{top:9px;position:absolute}}"
+               ].join("");
+               m(o, function (e) {
+                  t = 9 === e.offsetTop
+               })
+            }
+            return t
+         }), s(), a(f), delete d.addTest, delete d.addAsyncTest;
+         for (var v = 0; v < Modernizr._q.length; v++) Modernizr._q[v]();
+         e.Modernizr = Modernizr
+      }(window, document);
+   </script>
+   <meta name='description' content='Technology, Art, Metaverse, Love, Entertainment, Potential' />
+   <!-- viewport / browser config -->
+   <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0'>
+   <link rel='sitemap' type='application/xml' title='Sitemap' href='sitemap.xml' />
+   <!-- open graph -->
+   <meta property="og:url" content="#" />
+   <meta property="og:title" content="Piksel.art" />
+   <meta property="og:description" content="Technology, Art, Metaverse, Love, Entertainment, Potential" />
+   <meta property="og:image" content="#" />
+   <meta property="og:type" content="website" />
+   <!-- favicon -->
+   <link rel="shortcut icon" class="shortcut-icon" sizes="16x16" href="wp-content/themes/piksel/r/img/favicon.png">
+   <!-- page assets -->
+
+   <link rel='stylesheet' id='main-css' href='wp-content/themes/piksel/r/css/master1ea1.css?ver=201217-11939'
+      type='text/css' media='screen' />
+   <link rel="https://api.w.org/" href="wp-json/index.html" />
+   <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/5.json" />
+   <link rel="canonical" href="index.html" />
+</head>
+
+<body class="home page-template page-template-index page-template-index-php page page-id-5">
+
+   <div id='loader'>
+   </div>
+   <div id='preloader'>
+      <div class="preloader-words"></div>
+      <div class="preloader-block"></div>
+   </div>
+   <main class='content-wrap' data-barba='wrapper'>
+      <div class="cursor"><span class="drag-icon"></span></div>
+      <div data-barba="container" data-barba-namespace="home">
+         <div class="page-header">
+            <div class="hello-text">
+               <h1>
+                  <span class="span1">H</span>
+                  <span class="span1">e</span>
+                  <span class="span1">y</span>
+               </h1>
+            </div>
+            <div class="circle">
+               <a>
+                  <div class="circle-small">
+
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div class="main-logo">
+            <div class="logo">
+               <a >
+                  <img src="./wp-content/themes/piksel/r/img/piksel-logo.svg" alt="">
+               </a>
+            </div>
+         </div>
+         <div class='main-menu' data-main-menu>
+            <a class='main-menu-close js-menu-trigger-close mouse_target'>Close</a>
+            <div class='wrap'>
+               <div class='karl-text mouse_target '>Piksel</div>
+               <div class='karl-image'>
+                  <div
+                     data-secret-images='wp-content/uploads/2021/home_new/Groucho-Piksel_final-1024x1313.jpg, wp-content/uploads/2021/home_new/Harpo-Piksel_final-1024x1313.jpg, wp-content/uploads/2021/home_new/Karl-Piksel_final-copy-1024x1313.jpg, wp-content/uploads/2021/home_new/Richard-Piksel_final-1024x1313.jpg, '>
+                  </div>
+                  <img class='secret-image' />
+               </div>
+               <ul class='main-menu-menu'>
+                  <li id="menu-item-12"
+                     class="menu-item current_page_item">
+                     <a href="index.html" aria-current="page">Home</a></li>
+                  <li id="menu-item-16"
+                     class="menu-item"><a
+                     href="mission/index.html">Mission</a></li>
+                  <li id="menu-item-13"
+                     class="menu-item "><a
+                        href="jobs/index.html">Job Desk</a></li>
+                        <li id="menu-item-13"
+                     class="menu-item "><a
+                        href="contact/index.html">Contact</a></li>
+               </ul>
+               <div class='secret-link'>
+                  <div class="secret-link__dot"></div>
+               </div>
+               <div class="main-menu-bottom">
+                  <div class='studio-time' data-time-on-load='03:47:55 Wednesday NZDT'></div>
+                  <ul class="main-menu-sub">
+                     <li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17">
+                        <a target="_blank" rel="noopener"
+                           href="https://www.instagram.com/pikseldesign.co.nz">Instagram</a></li>
+                     <li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18">
+                        <a target="_blank" rel="noopener"
+                           href="https://www.linkedin.com/company/wp-design-ltd/">LinkedIn</a></li>
+                     <li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19">
+                        <a href="mailto:contact@piksel.art">contact@piksel.art</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <header class='home-header' data-animation-title>
+         </header>
+         <a class='viewport-menu js-menu-trigger-open mouse_target' >Menu</a>
+         <div class='viewport-home-blurb dot' style="display:none;">A bespoke bottle to launch alongside a brand
+            refresh.</div>
+         <div class='home-work'>
+            <div class="filter-container">
+               <div class='home-viewport-filter'>
+                  <div class="home-viewport-filter-selected mouse_target">
+                     Viewing Featured Projects
+                  </div>
+                  <div class="home-viewport-filter__bg">
+                     <div class="home-viewport-filter-categories">
+                        <a data-category-slug='featured' class='filter-active'>Featured</a>
+                        <a data-category-slug="brand">Brand</a>
+                        <a data-category-slug="communication">Communication</a>
+                        <a data-category-slug="packaging">Packaging</a> <a data-category-slug='archived'
+                           class=''>Archive</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div data-work-grid>
+               <div class='wrap js-scroll-reset-point work-grid' data-animation-content>
+                  <a class='cell cell--number-0 mouse_target' data-grid-element data-project-id='350'
+                     data-project-title='Project 1' data-project-blurb='Project 1 description here..'
+                     data-project-category-slug='communication' href='project/project2/index.html'>
+                     <div class='image'>
+                        <div class='hover-container mouse_target'><img class='image-hover' /></div>
+                        <img class='' data-grid-image data-srcset-landscape='./wp-content/uploads/2021/03/piksel1/1.png'
+                           data-srcset-portrait='./wp-content/uploads/2021/03/piksel1/2.png'
+                           data-src-landscape='./wp-content/uploads/2021/03/piksel1/3.png'
+                           data-src-portrait='./wp-content/uploads/2021/03/piksel1/4.png'>
+                     </div>
+                  </a>
+                  <a class='cell cell--number-1 mouse_target' data-grid-element data-project-id='242'
+                     data-project-title='Project 2' data-project-blurb='Project 2 description here..'
+                     data-project-category-slug='packaging' href='project/project1/index.html'>
+                     <div class='image'>
+                        <div class='hover-container'><img class='image-hover' /></div>
+                        <img class='' data-grid-image
+                           data-srcset-landscape='./wp-content/uploads/2021/03/piksel2/1_1.png'
+                           data-srcset-portrait='./wp-content/uploads/2021/03/piksel2/1_2.png'
+                           data-src-landscape='./wp-content/uploads/2021/03/piksel2/1_3.png'
+                           data-src-portrait='./wp-content/uploads/2021/03/piksel2/1_4.png'>
+                     </div>
+                  </a>
+                  <a class='cell cell--number-2 mouse_target' data-grid-element data-project-id='263'
+                     data-project-title='Project 3' data-project-blurb='Project 3 description here..'
+                     data-project-category-slug='communication' href='project/project3/index.html'>
+                     <div class='image'>
+                        <div class='hover-container'><img class='image-hover' /></div>
+                        <img class='' data-grid-image
+                           data-srcset-landscape='./wp-content/uploads/2021/03/piksel3/2_1.png'
+                           data-srcset-portrait='./wp-content/uploads/2021/03/piksel3/2_2.png'
+                           data-src-landscape='./wp-content/uploads/2021/03/piksel3/2_1.png'
+                           data-src-portrait='./wp-content/uploads/2021/03/piksel3/2_1.png'>
+                     </div>
+                  </a>
+                  
+
+               </div>
+            </div>
+
+         </div>
+         <footer class='home-footer'>
+            <div class='home-footer-cta'>
+               <p>We use curiosity to create idea-led solutions that drive success. <a href="about/index.html">Learn
+                     more about Peksel.</a></p>
+               <p>&nbsp;</p>
+            </div>
+            <video loop muted controls playsinline preload='metadata' class='home-footer-video'>
+               <source src='wp-content/uploads/2020/12/Timelapse-sequence-1-6-sec-small-new-compressed.mp4#t=0.5'
+                  type='video/mp4'>
+            </video>
+            <div class='footer-grid' data-is-subscribe-form>
+               <div class='col'>
+                  <p>&copy; Peksel</p>
+               </div>
+               <div class='col'>
+                  <ul>
+                     <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21">
+                        <a target="_blank" rel="noopener"
+                           href="https://www.instagram.com/pikseldesign.co.nz">Instagram</a></li>
+                     <li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22">
+                        <a target="_blank" rel="noopener"
+                           href="https://www.linkedin.com/company/wp-design-ltd/">LinkedIn</a></li>
+                     <li id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23">
+                        <a target="_blank" rel="noopener" href="https://www.facebook.com/Pikseldesignnz/">Facebook</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </footer>
+      </div>
+   </main>
+   <div class="about-page">
+      <div data-barba="container" data-background-color='#ece8e7' class="anim-about-yes">
+         <div class='journal-grid__mouse-follow' data-attach-to-mouse>
+            <img class='journal-grid__mouse-follow-image' data-attach-to-mouse-image />
+         </div>
+
+         <div>
+            <header class='page-header1' data-animation-title>
+
+               <a>
+                  <h1 class="close-about">Close</h1>
+               </a>
+            </header>
+
+
+
+
+
+            <div class='studio-awards hideMB'>
+            </div>
+         </div>
+         <div class='studio-sustainability'>
+            <p class="hideMB">&nbsp;</p>
+            <p class="hideMB">&nbsp;</p>
+            <p class="hideMB">&nbsp;</p>
+            <p class="hideMB">&nbsp;</p>
+            <p class="hideMB">&nbsp;</p>
+            <div class="columns">
+               <div class="left">
+
+                  <img class="about_img" alt='' title='Manuel' src='../wp-content/uploads/2020/12/Ikigaiillustration.svg' /> </div>
+
+               <div class='right'>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <h2>Our Values</h2>
+                  <p><span class="key-word">Collaboration</span> /kəˌlæbəˈreɪʃn/ n. the act of working with another person or group of people to create or produce something;<b> a confluence of building and creating something that can not be achieved individually.</b></p>
+                  <p><span class="key-word">Craftsmanship</span> /ˈkrɑːftsmənʃɪp/ n. the level of skill shown by
+                     somebody in making something beautiful with their hands;<b>beauty of
+                        handmade work that can transcend the physical world into the
+                        digital.</b></p>
+                  <p><span class="key-word">Creatio ex nihilo</span> /eks-ˈnē-(h)ə-ˌlō /adj., adv. Latin for "creation out of
+                     nothing"; <b> even a digital world finds its roots in the physical world.
+                        Re-valuing our physical world to enhance our digital lives is at the
+                        heart of Piksel.</b></p>
+                  <p class="no-indent"><a
+                        href="contact/index.html"
+                        target="_blank" rel="noopener">Get in touch with us</a></p>
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script type='text/javascript' src='wp-content/themes/piksel/r/js/script.min96fa.js?ver=201217-11940'
+      id='scripts-js'></script>
+</body>
+<script>
+   var cursor = document.querySelector('.cursor');
+   var a = document.querySelectorAll('a');
+
+
+
+   document.addEventListener('mousemove', function (e) {
+      var x = e.clientX;
+      var y = e.clientY;
+      cursor.style.left = x + 'px';
+      cursor.style.top = y + 'px';
+   });
+
+   document.addEventListener('mousedown', function () {
+      cursor.classList.add('cursor--clicked')
+   });
+
+   document.addEventListener('mouseup', function () {
+      cursor.classList.remove('cursor--clicked')
+   });
+
+   a.forEach(item => {
+      item.addEventListener('mouseover', () => {
+         cursor.classList.add('cursor--link-hovered');
+      });
+      item.addEventListener('mouseleave', () => {
+         cursor.classList.remove('cursor--link-hovered');
+      });
+   })
+</script>
+<script>
+   const circle = document.querySelector('.circle');
+const aboutPage = document.querySelector('.about-page')
+const closeAbout = document.querySelector('.close-about')
+circle.onclick = function () {
+circle.classList.add("expand");
+setTimeout(function () {
+   aboutPage.classList.add('show');
+   circle.classList.remove('expand')
+}, 800);
+setTimeout(function () {
+   document.querySelector('.anim-about-yes').classList.add('tilt-in-top-1');
+}, 950);
+
+}
+closeAbout.onclick = function(){
+aboutPage.classList.add('hide');
+document.querySelector('.main-menu').classList.remove('hide_menu');
+setTimeout(function () {
+   aboutPage.classList.remove('show');
+   aboutPage.classList.remove('hide');
+   
+}, 550);
+}
+</script>
+
+
+
+</html>
