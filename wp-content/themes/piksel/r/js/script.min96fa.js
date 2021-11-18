@@ -11445,7 +11445,7 @@
         }
     }
     const lh = {};
-    console.log("(ノಠ益ಠ)ノ彡"), console.log("Website by deduxer studio."), console.log("WWW 1.0");
+    // console.log("(ノಠ益ಠ)ノ彡"), console.log("Website by deduxer studio."), console.log("WWW 1.0");
     const hh = [];
     let ch, dh, fh, ph, mh, gh, vh;
     const yh = e => {
