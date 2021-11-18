@@ -1,0 +1,12 @@
+{
+  "short_name": "Piksel Art",
+  "name": "Piksel Art",
+  "icons": [{
+    "src": "/wp-content/themes/piksel/r/img/favicon.png",
+    "type": "image/png",
+    "sizes": "64x64"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
