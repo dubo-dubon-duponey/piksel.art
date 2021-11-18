@@ -935,6 +935,8 @@ form fieldset.double input {
 }
 .main-menu-bottom .studio-time {
     flex-basis: 50%;
+    /* XXX hiding the stupid clock */
+    visibility: hidden;
 }
 .main-menu-close {
     position: absolute;
