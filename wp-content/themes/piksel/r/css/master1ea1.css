@@ -184,7 +184,7 @@ template {
 }
 body {
     position: relative;
-    background-color: var(--body-background);
+    /* background-color: var(--body-background); */
 }
 
 a,
@@ -3110,7 +3110,7 @@ html.safari-browser #video-player iframe {
         padding-right: 0;
     }
 }
-.studio-about p:first-of-type() {
+.studio-about p:first-of-type {
     text-indent: 0;
 }
 .studio-awards {
@@ -3450,7 +3450,7 @@ html.safari-browser #video-player iframe {
     font-feature-settings: "ss01" on, "liga" off;
     margin-bottom: 10px;
 }
-.studio-sustainability p:first-of-type() {
+.studio-sustainability p:first-of-type {
     text-indent: 0;
 }
 .studio-sustainability p.no-indent {
@@ -3528,7 +3528,7 @@ html.safari-browser #video-player iframe {
         padding: 0;
     }
 }
-]
+
 @media only screen and (max-width: 767px) {
     [data-barba-namespace="studio"] .viewport__sticky-container {
         height: 32px;
