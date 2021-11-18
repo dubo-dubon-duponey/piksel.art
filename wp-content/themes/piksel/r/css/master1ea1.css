@@ -3514,7 +3514,7 @@ html.safari-browser #video-player iframe {
         width: 100%;
     }
 }
-.contact-content a[href^="https://www.facebook.com/piksel.art/"],.contact-content a[href^="https://www.instagram.com/piksel.art"],.contact-content a[href^="https://www.linkedin.com/company/piksel-design-ltd/"]
+.contact-content a[href^="https://www.facebook.com/piksel.art/"],.contact-content a[href^="https://www.instagram.com/piksel.art"],.contact-content a[href^="https://www.linkedin.com/company/piksel-art/"]
 {
     color: var(--buff);
 }
