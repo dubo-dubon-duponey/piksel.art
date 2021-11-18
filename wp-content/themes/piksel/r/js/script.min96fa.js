@@ -11341,7 +11341,7 @@
         }
         getCanvas() {
             return this.curtains && this.hasGL ? document.getElementById("piksel-logo-container") : null
-        }   
+        }
         enable(e) {
             this.isEnabled = e, this.curtains && (e ? (this.curtains.enableDrawing(), window.addEventListener("mousemove", this.onMouseMove), window.addEventListener("touchmove", this.onMouseMove, {
                 passive: !0
@@ -11514,11 +11514,11 @@
         barba: function() {
             pi.a.hooks.afterEnter(e => {
                 var t = window.location.href.replace(window.location.origin, "").toLowerCase();
-                gtag("config", "UA-104975936-1", {
+                /*gtag("config", "UA-104975936-1", {
                     anonymize_ip: !0,
                     page_title: document.title,
                     page_path: t
-                })
+                })*/
             }), pi.a.init({
                 debug: !1,
                 timeout: 5e3,
