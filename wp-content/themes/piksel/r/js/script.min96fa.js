@@ -8653,6 +8653,7 @@
             return r
         }
         greeting() {
+            return "";
             let e = function(e, t, r) {
                 Du(2, arguments);
                 var i = String(t),
